@@ -1,0 +1,156 @@
+*{
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('bg.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.main_menu{
+    background: #245580;
+    font-size: 24px;   
+    padding: 15px;
+    margin: 0px;
+    color: wheat;
+    text-align: center;
+}
+
+.main_menu a {
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.main_menu a:hover{
+    outline: 1px solid #ccccff;
+    transition-duration: 1s;
+    background: black;
+}
+
+.main_menu a .active{
+    outline: 1px solid #ccccff;
+    background: #122b40;
+}
+
+.footer{
+    clear: both;
+    background: #245580;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+td{
+    background: darkslategray;
+    color: white;
+}
+
+th{
+    background: black;
+    color: white;
+}
+
+
+.div_form{
+    border: 3px wheat solid;
+    border-radius: 5px ;
+    padding: 10px;
+    background: #2e6da4;
+    margin: 20px;
+    height: fit-content;
+}
+
+.div_form input, .div_form select, .div_form textarea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: mintcream;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    opacity: .8;
+    padding: 10px;
+}
+
+
+
+h1, h2, h3{
+    text-align: center;
+    color: white;
+}
+
+label{
+    font-weight: bold;
+    padding-left: 10px;
+    color: #999999;
+}
+
+.menu{
+    background: #330033;
+    width: 100%;
+    padding: 20px;
+}
+
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
+.menu a:hover{
+    outline: 1px white solid
+}
+
+.nocursor{
+    pointer-events: none;
+    user-select: none;
+}
+
+.active{
+    outline: 1px white solid;
+}
+
+fieldset{
+    color: #999999;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table, th{
+    text-align: center;
+}
+
+
+.art_item{
+    background: #2e6da4;
+    border: 2px beige solid;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 50px;
+    width: 350px;
+    height: 400px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-wheat{
+    color: wheat;
+}
